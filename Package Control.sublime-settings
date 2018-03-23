@@ -15,9 +15,12 @@
 		"ERB Snippets",
 		"Git",
 		"GitGutter",
+		"HTML-CSS-JS Prettify",
 		"JSX",
 		"Package Control",
+		"PHP Codebeautifier",
 		"Ruby on Rails snippets",
-		"SCSS"
+		"SCSS",
+		"Simple JSX"
 	]
 }

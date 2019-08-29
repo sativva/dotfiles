@@ -1,26 +1,21 @@
 {
+
 	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
-	"installed_packages":
-	[
-		"3024 Color Scheme",
-		"AdvancedNewFile",
-		"All Autocomplete",
-		"ApplySyntax",
-		"BracketHighlighter",
-		"DocBlockr",
-		"Emmet",
-		"ERB Snippets",
-		"Git",
-		"GitGutter",
-		"HTML-CSS-JS Prettify",
-		"JSX",
-		"Package Control",
-		"PHP Codebeautifier",
-		"Ruby on Rails snippets",
-		"SCSS",
-		"Simple JSX"
-	]
+  "installed_packages":
+  [
+    "AdvancedNewFile",
+    "All Autocomplete",
+    "Babel",
+    "Emmet",
+    "ERB Snippets",
+    "Git",
+    "GitGutter",
+    "Package Control",
+    "SCSS",
+    "SublimeLinter",
+    "SublimeLinter-rubocop"
+  ]
 }

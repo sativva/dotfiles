@@ -3,7 +3,7 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-	],
+  ],
   "installed_packages":
   [
     "AdvancedNewFile",
@@ -13,9 +13,10 @@
     "ERB Snippets",
     "Git",
     "GitGutter",
+    "Liquid",
     "Package Control",
     "SCSS",
     "SublimeLinter",
-    "SublimeLinter-rubocop"
-  ]
+    "SublimeLinter-rubocop",
+  ],
 }

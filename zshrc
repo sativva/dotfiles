@@ -21,7 +21,9 @@ type -a rbenv > /dev/null && eval "$(rbenv init -)"
 # Rails and Ruby uses the local `bin` folder to store binstubs.
 # So instead of running `bin/rails` like the doc says, just run `rails`
 # Same for `./node_modules/.bin` and nodejs
-export PATH="./bin:./node_modules/.bin:${PATH}:/usr/local/sbin"
+#export PATH="./bin:./node_modules/.bin:${PATH}:/usr/local/sbin"
+#export PATH="$(python3 -m site --user-base)/bin:$PATH"
+export PATH="/Users/thomas/Library/Python/3.11/bin:$PATH"
 
 # Store your own aliases in the ~/.aliases file and load the here.
 [[ -f "$HOME/.aliases" ]] && source "$HOME/.aliases"
@@ -46,4 +48,11 @@ export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bi
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
+export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
+if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi
+omz_urlencode() {
+    # Function contents...
+  alias pygmentize="/Users/thomas/Library/Python/3.9/bin/pygmentize"
+
+}
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
